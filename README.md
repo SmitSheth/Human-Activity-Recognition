@@ -25,7 +25,7 @@ The following steps were taken:
 *Output converted into csv format, keeping only x and y positions of each frame, action being performed during frame, and order of frames. This is used to create a database of associated activity class number and corresponding series of joint 2D positions.
 Note:- In cases where  multiple people were detected in each frame, only the first detection was used. 
 
-##References
+# References
 The dataset can be found at http://tele-immersion.citris-uc.org/berkeley_mhad released under the BSD-2 license
 >Copyright (c) 2013, Regents of the University of California All rights reserved.
 The model reference is taken from :
