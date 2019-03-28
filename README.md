@@ -28,5 +28,6 @@ Note:- In cases where  multiple people were detected in each frame, only the fir
 # References
 The dataset can be found at http://tele-immersion.citris-uc.org/berkeley_mhad released under the BSD-2 license
 >Copyright (c) 2013, Regents of the University of California All rights reserved.
+
 The model reference is taken from :
 >https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition
