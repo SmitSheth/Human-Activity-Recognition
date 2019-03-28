@@ -24,7 +24,8 @@ The following steps were taken:
 * Openpose run on individual frames, for each subject, action and view, outputting 18 joints x and y position keypoints and accuracies per frame
 
 * Output converted into csv format, keeping only x and y positions of each frame, action being performed during frame, and order of frames. This is used to create a database of associated activity class number and corresponding series of joint 2D positions.
-Note:- In cases where  multiple people were detected in each frame, only the first detection was used. 
+
+**Note**:- In cases where  multiple people were detected in each frame, only the first detection was used. 
 
 # Usage
 * For downloading the model run getModels.sh from command line.
