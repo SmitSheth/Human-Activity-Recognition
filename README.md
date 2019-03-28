@@ -7,10 +7,15 @@ The dataset consists of pose estimations, made using the  OpenPose (OpenCV versi
 This dataset is comprised of 12 subjects doing the following 6 actions for 5 repetitions, filmed from 4 angles, repeated 5 times each.
 
 *JUMPING,
+
 *JUMPING_JACKS,
+
 *BOXING,
+
 *WAVING_2HANDS,
+
 *WAVING_1HAND,
+
 *CLAPPING_HANDS.
 
 The input for the model is the 2D position of 18 joints across a timeseries of frames numbering n_steps (window-width), with an associated class label for each frame series.
@@ -22,6 +27,7 @@ For the following experiment, very little preprocessing has been done to the dat
 The following steps were taken:
 
 *openpose run on individual frames, for each subject, action and view, outputting 18 joints x and y position keypoints and accuracies per frame
+
 *Output converted into csv format, keeping only x and y positions of each frame, action being performed during frame, and order of frames. This is used to create a database of associated activity class number and corresponding series of joint 2D positions.
 Note:- In cases where  multiple people were detected in each frame, only the first detection was used. 
 
