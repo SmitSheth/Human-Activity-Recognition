@@ -1,5 +1,5 @@
 # Human-Activity-Recognition
-This experiment is classification of human activties using 2D pose time series dataset and an LSTM. The idea is to use pose estimations obtained using OpenPose and classify the human actions. The current project can detect action only when single person is persent in the video.
+This experiment is classification of human activties using 2D pose time series dataset and an LSTM. The idea is to use pose estimations obtained using OpenPose (COCO model-18 keypoints) and classify the human actions. The current project can detect action only when single person is persent in the video.
 
 # Dataset Overview
 The dataset consists of pose estimations, made using the  OpenPose (OpenCV version) on a subset of the Berkeley Multimodal Human Action Database (MHAD) dataset http://tele-immersion.citris-uc.org/berkeley_mhad.
@@ -25,9 +25,21 @@ The following steps were taken:
 *Output converted into csv format, keeping only x and y positions of each frame, action being performed during frame, and order of frames. This is used to create a database of associated activity class number and corresponding series of joint 2D positions.
 Note:- In cases where  multiple people were detected in each frame, only the first detection was used. 
 
+#Usage
+1. For downloading the model run getModels.sh from command line.
+*For training on your own dataset:
+  *Update the dataset path in train.ipynb
+  * Run the notebook
+*For testing the model:
+  *Update the openpose model path and action_recogntion model path
+  *Update the filepath of the video to test the model on.
+  *Update the output video filename
+  *Run the notebook.
+
 # References
-The dataset can be found at http://tele-immersion.citris-uc.org/berkeley_mhad released under the BSD-2 license
+*The dataset can be found at http://tele-immersion.citris-uc.org/berkeley_mhad released under the BSD-2 license
 >Copyright (c) 2013, Regents of the University of California All rights reserved.
 
-The model reference is taken from :
+*The model reference is taken from :
 >https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition
+
