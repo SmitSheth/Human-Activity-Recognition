@@ -27,7 +27,7 @@ The following steps were taken:
 
 **Note**:- In cases where  multiple people were detected in each frame, only the first detection was used. 
 
-The link to download trained model and the data on which the model is trained on :- [a link](https://drive.google.com/drive/folders/12dBIZMWA-kO0VYzXi9zSEbXUhgjMSoY6?usp=sharing)
+The link to download trained model and the data on which the model is trained on :- https://drive.google.com/drive/folders/12dBIZMWA-kO0VYzXi9zSEbXUhgjMSoY6?usp=sharing
 
 # Usage
 * For downloading the model run getModels.sh from command line.
