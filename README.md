@@ -41,9 +41,9 @@ The link to download trained model and the data on which the model is trained on
   * Run the notebook.
 
 # References
-*The dataset can be found at http://tele-immersion.citris-uc.org/berkeley_mhad released under the BSD-2 license
+* The dataset can be found at http://tele-immersion.citris-uc.org/berkeley_mhad released under the BSD-2 license
 >Copyright (c) 2013, Regents of the University of California All rights reserved.
 
-*The model reference is taken from :
+* The model reference is taken from :
 >https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition
 
